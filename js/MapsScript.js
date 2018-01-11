@@ -1,5 +1,5 @@
 var map, infoWindow;
-
+//These are the pins with the lats and longs
 function initMap() {
 	var Qudos = {lat: -33.844, lng: 151.062};
 	var Inglewood = {lat: 33.961, lng: -118.352};
@@ -13,6 +13,7 @@ function initMap() {
 	var RockAmSee = {lat: 47.6668961,lng: 9.2141073};
 	var SzigetFest = {lat:47.5505797,lng: 19.0540044};
 	
+	//This is all the styling for the custom theme
 	map = new google.maps.Map(document.getElementById('map'), {
 	center: {lat: -34.397, lng: 150.644},
 	zoom: 6,
@@ -215,7 +216,7 @@ function initMap() {
 	});
 	
 		infoWindow = new google.maps.InfoWindow;
-		
+		//these place all the markers, they have event listeners to listen for the clicks on the pins
 		var marker1 = new google.maps.Marker({
 		position: Qudos,
 		map: map,
@@ -325,7 +326,7 @@ function initMap() {
         infoWindow.open(map, marker11);
         })
 
-			
+		//This is where the geolocation occurs
 		if (navigator.geolocation) {
 		navigator.geolocation.getCurrentPosition(function(position) {
 		var pos = {
