@@ -2,6 +2,8 @@ html{
 	overflow-x: hidden;
 }
 
+"content_security_policy": "default-src 'self' style-src 'self' 'unsafe-inline';" 
+
 body {
 	margin: 0;
 	padding: 0;
