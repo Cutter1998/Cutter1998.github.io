@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Muse - Log</title>
+		<link rel = "stylesheet" href = "css/style.css" />
+		<script src = "js/Responsive.js"></script>
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	</head>
+	
+	<body id = "bodyLog">
+	
+		<header>
+			<div id = "banner"></div>
+		</header>
+		
+		<div class = "toggle">
+			<i id = "mobileButton" class="fa fa-bars" aria-hidden="true"></i>
+		</div>
+		<nav id = "NavigationContainer">
+			<ul>
+				<li class = "NavigationButtons"><a href = "index.html">INTERVIEW</a></li>
+				<li class = "NavigationButtons"><a href = "Tours.html">TOURS</a></li>
+				<li class = "NavigationButtons"><a href = "Gallery.html">GALLERY</a></li>
+				<li class = "NavigationButtons"><a href = "Customiser.html">CUSTOMISER</a></li>
+				<li class = "NavigationButtons"><a href = "Demo.html">DEMO</a></li>
+				<li class = "NavigationButtons"><a href = "Log.html">LOG</a></li>
+			</ul>
+		</nav>
+		
+		<div id = "logContainer">
+			<h1 align = "center">Introduction –</h1>
+			<p>My assessment for this module was to design a website featuring hyperlinks, shadows, local storage, multimedia, JavaScript functions and other content possibly not covered in lectures. I have also reviewed the strengths and weaknesses of certain web standards and specifications to assist me with this task and have used HTML5 (as this is the most recent mark-up language and is most commonly used) to develop a website I believe fits these criteria. CSS3 has been used to style the content and JavaScript is included to add certain functionalities not possible without it. I have listened to my peers as was the point of the peer review and used their criticisms and praises as best I can to improve my site. </p>
+			
+			<h1 align = "center">Web Specifications and Standards –</h1>
+			<p>Web standards can be very useful. They provide an important guideline on how best to construct a site to make it accessible for a large array of users – perhaps those with disabilities those older devices or those not yet a reality. Web standards can also help with SEO (Search engine optimisation), therefore providing you with a larger audience. Compliance with web standards may mean that your website can remain functional for years to come and improve the overall stability of a site. The main standards body that are central in the development of such standards is the W3C (World Wide Web Consortium). They provide many documents and tools outlining and assisting in the development of websites. </p>
+			<p>There are however some drawbacks to following web standards. Firstly, the skill of the developer needs to be improved to adhere to them, they must have a fair knowledge about the specifications to make it fully compliant. Secondly, it can take much longer to construct a strictly standardised site, for example it may take much longer to develop a site that must adapt to many different devices or browsers. </p>
+			<p>The general mindset of web developers has changed over the last few years and the new web standards are becoming increasingly adhered to. Traditional sites may have used table-based layouts, presentation within content (such as font tags), invalid code, inaccessible code (for impaired or disabled users) and semantically incorrect code. However, this leads to overall poor performance and statistics when looking at the bigger picture. </p>
+		
+			<h1 align = "center">How have I followed web standards?</h1>
+			<p>I have tried my best to use semantically correct mark -up. Everything is written to make sense and flow correctly. My code has also been validated using the W3C validator as you will see if you go forward in this document. All my CSS (Cascading style sheet) is linked externally to prevent inline styles as this is bad practice. JS (JavaScript) files are also separated.</p>
+			<p>I have used some of the new tags in making my website, which assists search engine optimisation and accessibility for disabled users. Some of the new tags I have used include the ‘Nav’ tag and the ‘Header’ tags.</p>
+			<p>I have also tired to make my code as accessible as possible, whether that be for disabled users, or users of other devices. One example of how I have made it more accessible for disabled people is by adding alt attributes to my images. This enables them to be read allowed should the user be blind. For smart phone users, I have made the pages responsive, so that when the screen is reduced in size, the links are stacked vertically behind a button. You can see one of the media queries used to make my site responsive below: </p>
+		
+			<img width = "100%" src = "assets/MediaQuery.png">
+			
+			<h1 align = "center">File Structure -</h1>
+			<p>I felt it was very important to make sure that my site had a simple and logical file structure. This can be seen in the image below. Assets, CSS and JS are all linked to externally. This is best practice.</p>
+			<img width = "100%" src = "assets/FileStructure.png">
+			
+			<h1 align = "center">Tools used to construct my site -</h1>
+			<p>I have used the google maps API to design my own custom maps as seen in the image below. I modified the script to place pins in tour dates and to geolocate the user.</p>
+		
+			<img width = "100%" src = "assets/MapsScreenshot.png"></img>
+			<p>I also used a library called Fabric JS, this library allows items on the canvas to be dealt with like objects as opposed to static movements. I then wrote another script to work alongside the fabric library to make the t-shirt customiser as seen in the image below.</p>
+			<img width = "100%" src = "assets/FabricScreenshot.png"></img>
+			
+			<h1 align = "center">Interoperability -</h1>
+			<p>I have tested the interoperability of my site on Opera, Mozilla Firefox and Chrome. This is demonstrated below.</p>
+			
+			<h1 align = "center">OPERA</h1>
+			<img width = "100%" src = "assets/Opera.png"></img>
+			
+			<h1 align = "center">CHROME</h1>
+			<img width = "100%" src = "assets/Chrome.png"></img>
+			
+			<h1 align = "center">FIREFOX</h1>
+			<img width = "100%" src = "assets/Firefox.png"></img>
+			
+			<h1 align = "center">W3C Validation</h1>
+			<p>All my pages have been validated on the W3C validation checker. This is good practice; all mark-up language should really comply with the W3C standards as best it can. Screenshots of the validation process are displayed below.</p>
+		
+			<h1 align = "center">INDEX</h1>
+			<img width = "100%" src = "assets/IndexValidation.png"></img>
+			<p>As you can see a couple of errors were returned on this page but after further research it turned out that most people advised these were not an issue.</p>
+		
+			<h1 align = "center">TOURS</h1>
+			<img width = "100%" src = "assets/ToursValidation.png"></img>
+			
+			<h1 align = "center">GALLERY</h1>
+			<img width = "100%" src = "assets/GalleryValidation.png"></img>
+			
+			<h1 align = "center">CUSTOMISER</h1>
+			<img width = "100%" src = "assets/CustomiserValidation.png"></img>
+			
+			<h1 align = "center">CSS</h1>
+			<img width = "100%" src = "assets/CSSValidation.png"></img>
+			
+			<h1 align = "center">Bibliography -</h1>
+			<ul>
+				<li>“The benefits of Web Standards to your visitors, your clients and you!” </li>
+				<li>Article by Russ Weakley</li>
+				<li>http://maxdesign.com.au/articles/benefits/</li>
+				<li>[February 23, 2004]</li>
+			</ul>
+			<br><br>
+			<ul>
+				<li>The Web Standards Project</li>
+				<li>https://www.webstandards.org/learn/faq/index.html</li>
+				<li>[2002]</li>
+			</ul>
+			<br><br>
+			<ul>
+				<li>“HTML5 multimedia developer's guide”</li>
+				<li>Book by Ken Bluttman & Lee Cottrell</li>
+				<li>[2012]</li>
+			</ul>
+			<h1 align = "center">References -</h1>
+			<ul>
+				<li>All images were taken from google images and the official Muse website - http://muse.mu/</li>
+			</ul>
+			<br><br>
+			<ul>
+				<li>-“Muse: Hackers, drag bars & Cirque du Soleil” YouTube Video</li>
+				<li>https://www.youtube.com/watch?v=7U8pvYptYjo</li>
+				<li>July 12 2017</li>
+			</ul>
+			<br><br>
+			<ul>
+				<li>Fabric.js library - http://fabricjs.com/</li>
+				<li>Google Maps API - https://developers.google.com/maps/documentation/javascript/</li>
+			</ul>
+		</div>
+		
+	</body>
+	
+</html>
