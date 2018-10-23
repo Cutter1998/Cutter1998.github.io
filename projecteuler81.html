@@ -1,0 +1,60 @@
+<html lang = "en">
+	<head>
+		<meta charset="utf-8">
+		<title>Ben Cutter</title>
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	
+	<header>
+		<h1 id="logo">Ben Cutter</h1>
+		<nav>
+			<ul class="nav">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="skills.html">Skills</a></li>
+				<li><a href="interests.html">Interests</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="workexperience.html">Work Experience</a></li>
+			</ul>
+		</nav>
+	</header>
+	<body>
+		<h1 class="pageTitle">Project Euler 81 in C++</h1>
+		<img class = "center" src = "assets/ProjectEuler81Pics/ProjectEulerScreenshot0.png">
+		<div id = "textContainer">
+			<p>To view or download the Matrix.txt file you can click the link below: </p> <a href ="https://projecteuler.net/project/resources/p081_matrix.txt">Matrix.txt</a>
+			<p>To solve this program using brute force would be incredibly inefficient. There are just too many combinations to try. We could however use dynamic programming. By storing the minimum cost of every single position in the matrix, we can recursively make our way back to position [0][0].</p>
+			<p>To work out the cost of a certain position, we must add to it to the smaller of the follwing values: the cost of the cell below it, or the cell to the right of it.</p>
+			<p>In the screenshot below I read in the Matrix.txt file and store the string values in a 1D vector. I will convert this to a 2D vector in the next screenshot.</p>
+		</div>
+		<img class = "center" src = "assets/ProjectEuler81Pics/ProjectEulerScreenshot1.png">
+		<div id = "textContainer">
+			<p>Now I have the matrix in a string vector, I can convert it into a 2D integer vector.</p>
+		</div>
+		<img class = "center" src = "assets/ProjectEuler81Pics/ProjectEulerScreenshot2.png">
+		<div id = "textContainer">
+			<p>Here is the slightly more complicated part. I iterate through every cell, starting at the bottom right, and calculate the minimum cost of the position should it be on the path selected. Obviously, the cost of the very last position will simply be the value of the element.</p>
+			<p>For every other position, we will use the formula: cost = valueOfElement + min(valueOfElementBelow, valueOfElementRight).</p>
+			<p>For edge cases, we have to choose the only route we can take.</p>
+			<p>This works recursively, all the way until we reach the very first element, whose new value should be the minimum cost of traversing the entire matrix via the optimal route.</p>
+		</div>
+		<img class = "center" src = "assets/ProjectEuler81Pics/ProjectEulerScreenshot3.png">
+		<div id = "textContainer">
+			<p>Here we can see that the value of the first element will be displayed.</p>
+		</div>
+		<img class = "center" src = "assets/ProjectEuler81Pics/ProjectEulerScreenshot4.png">
+		<div id = "textContainer">
+			<p>The following screenshot shows the program running and outputting the correct solution to the original problem.</p>
+		</div>
+		<img class = "center" src = "assets/ProjectEuler81Pics/ProjectEulerScreenshot5.png">
+		<footer>
+			<div class="leftfoot">
+				<p>bencutter1998@gmail.com</p>
+			</div>
+			<div class="rightfoot">
+				<p>© 2018 Ben Cutter</p>
+			</div>
+		</footer>
+	</body>
+</html>
