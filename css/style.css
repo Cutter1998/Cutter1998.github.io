@@ -5,14 +5,16 @@ html{
 body {
 	margin: 0;
 	padding: 0;
+	background-color: white;
 }
 
 footer{
-	background-color: #f4d142;
+	background-color: #606dbd;
 	height: 60px;
 	width: 100vw;
 	bottom: 0;
     position: absolute;
+	color: white;
 }
 
 #footerContainer{
@@ -59,13 +61,14 @@ footer{
 }
 
 #logo{
-	background-color: #fff5a0;
+	background-color: #606dbd;
 	padding-left: 50px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	margin: 0;
 	font-family: "Courier New", Courier, monospace;
 	font-weight: bold;
+	color: white;
 }
 
 .pageTitle{
@@ -79,7 +82,7 @@ footer{
 nav > ul{margin: 0;}
 
 .nav {
-	background-color: #f4d142;
+	background-color: #60bdb1;
 	list-style: none;
 	text-align: center;
 	padding: 20px 0 20px 0;
@@ -130,6 +133,10 @@ p{
 .drawings{
 	float: left;
 	height: 500;
+}
+
+.BulletList{
+	list-style-type: circle;
 }
 
 #gc{
