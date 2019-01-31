@@ -3,6 +3,7 @@
 		<meta charset="utf-8">
 		<title>Ben Cutter</title>
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	
@@ -28,7 +29,23 @@
 			<p align = "center"><b>Institution:</b> University of Lincoln</p>
 		</div>
 
-		<img id = "pp" src = "assets/image6.png" style="max-width:100%;">
+		<div class = "carousel-container">
+		<i class="fas fa-arrow-circle-right" id="nextButton"></i>
+		<i class="fas fa-arrow-circle-left" id ="prevButton"></i>
+			<div class = "carousel-slide">
+				<img src="assets/me6.png" id="lastClone">
+				<img src="assets/me1.png">
+				<img src="assets/me2.png">
+				<img src="assets/me3.png">
+				<img src="assets/me4.png">
+				<img src="assets/me5.png">
+				<img src="assets/me6.png">
+				<img src="assets/me1.png" id ="firstClone">
+			</div>
+		</div>
+		
+		<script src = "js/Carousel.js"></script>
+		
 		<div id = "footerContainer">
 		<div id = "footerHeader"></div>
 		<div id = "footerBody"></div>

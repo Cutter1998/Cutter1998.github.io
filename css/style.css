@@ -157,3 +157,39 @@ p{
     margin-right: auto;
     display: block;
 }
+
+
+.carousel-container{
+	width: 30%;
+	margin: auto;	
+	overflow: hidden;
+	position: relative;
+}
+
+.carousel-slide{
+	display: flex;
+	margin: auto;
+	width: 100%;
+}
+
+#prevButton{
+	position: absolute;
+	top: 70%;
+	z-index: 10;
+	left: 5%;
+	font-size: 50px;
+	color: white;
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+#nextButton{
+	position: absolute;
+	top: 70%;
+	z-index: 10;
+	right: 5%;
+	font-size: 50px;
+	color: white;
+	opacity: 0.5;
+	cursor: pointer;
+}
