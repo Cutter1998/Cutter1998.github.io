@@ -8,7 +8,14 @@
 	</head>
 
 	<header>
-		<h1 id="logo">Ben Cutter</h1>
+	<script src = "js/ColourPicker.js"></script>
+		<div id = "top-border">
+			<h1 id="logo">Ben Cutter</h1>
+			<div id = "colourContainer">
+				Choose a colour for my banner!
+				<input id = "colourPicker" type="color" name="favcolor" value="#000000" onchange = "changeBannerColour()">
+			</div>
+		</div>
 		<nav>
 			<ul class="nav">
 				<li><a href="index.html">Home</a></li>
@@ -31,7 +38,7 @@
 		</div>
 		
 		<div class="w3-content" style="max-width:800px">
-		  <img class = "mySlides" src = "assets/drawing1.jpg">
+		  <img class = "mySlides" onload="launchCarousel()" src = "assets/drawing1.jpg">
 		  <img class = "mySlides" src = "assets/drawing2.jpg">
 		  <img class = "mySlides" src = "assets/drawing3.jpg">
 		  <img class = "mySlides" src = "assets/drawing4.jpg">

@@ -41,6 +41,22 @@ footer{
 	margin:0 auto;
 }
 
+#colourContainer{
+	text-align: right;
+	color: #ffffff;
+	background-color: #2d2d2d;
+	padding-right: 50px;
+	padding-top: 25px;
+}
+
+#colourPicker{
+	width: 5%;
+}
+
+#colourPickerText{
+	float: left;
+}
+
 .center {
     display: block;
     margin-left: auto;
@@ -64,6 +80,11 @@ footer{
 	to {margin-left: 0px;}
 }
 
+#top-border{
+	background-color: #2d2d2d;
+	height: 88px;
+}
+
 #logo{
 	background-color: #2d2d2d;
 	padding-top: 15px;
@@ -73,6 +94,7 @@ footer{
 	font-family: "Courier New", Courier, monospace;
 	font-weight: bold;
 	color: white;
+	float: left;
 }
 
 .pageTitle{
