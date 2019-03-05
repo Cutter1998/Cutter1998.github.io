@@ -7,6 +7,7 @@ html{
 }
 
 body {
+	text-align: center;
 	margin: 0;
 	padding: 0;
 	background-color: white;
@@ -25,6 +26,15 @@ footer{
 	bottom: 0;
     position: absolute;
 	color: white;
+}
+
+.contactMeTitle{
+	font-family: "Courier New", Courier, monospace;
+	font-weight: bold;
+}
+
+.emailForm{
+	text-align: center;
 }
 
 #footerContainer{
@@ -189,7 +199,7 @@ p{
 
 .carousel-container{
 	width: 600px;
-	margin: auto;	
+	margin: auto;
 	overflow: hidden;
 	position: relative;
 }
