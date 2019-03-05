@@ -124,15 +124,12 @@ nav > ul{margin: 0;}
 	padding-right: 60px;
 	border-radius: 30px;
 	border-style: solid;
-	border-width: thin;
+	border-width: 10px;
 	border-color: #2d2d2d;
 }
 
 .nav {
 	background-color: #60bdb1;
-	border-style: solid;
-	border-width: thin;
-	border-color: #2d2d2d;
 	list-style: none;
 	text-align: center;
 	padding: 20px 0 20px 0;
