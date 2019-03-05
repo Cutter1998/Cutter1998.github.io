@@ -18,7 +18,7 @@ footer{
 	height: 60px;
 	width: 100vw;
 	bottom: 0;
-    position: absolute;
+  position: absolute;
 	color: white;
 }
 
@@ -87,8 +87,8 @@ footer{
 }
 
 @keyframes slideFromRight {
-	from {margin-left: 100vw;}
-	to {margin-left: 0px;}
+	from {padding-left: 50vw;}
+	to {padding-left: 0px;}
 }
 
 #top-border{
